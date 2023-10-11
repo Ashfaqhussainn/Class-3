@@ -1,0 +1,205 @@
+
+body{
+    font-weight: normal;
+    background: linear-gradient(90deg,#ccc7c7, #575ea7);
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+
+/*Box 1 Start Here*/
+.box-1{
+
+    background-color: rgb(190 152 152);
+    color: #fff;
+    border: 5px rgb(48, 179, 135) solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 5px rgb(48, 179, 135) solid;
+    border-left: 5px rgb(48, 179, 135) solid;
+    border-top: 5px rgb(48, 179, 135) solid;
+    border-bottom: 5px rgb(48, 179, 135) solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    margin-top: 20px;
+
+}
+
+/*Box 2 Start Here*/
+
+.box-2{
+    border: 3px dotted #ccc;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
+
+/*Start Categories Here*/
+
+.categories{
+    border: 2px #cccc solid;
+    border-radius: 10px;
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+.categories a{
+    text-decoration: none;
+    color: #8b7c7c;
+
+    
+}
+
+.container h2{
+    text-align: center;
+}
+
+.categories li{
+    border-bottom: 1px dotted #8b7c7c;
+    padding: 7px;
+    list-style-image:url('check.png') ;
+
+}
+
+
+/*start form here*/
+
+.main-form{
+    padding: 20px;
+
+}
+.main-form .form-data{
+    padding-bottom: 15px;
+}
+
+.main-form label{
+    display: block;
+}
+
+.main-form input[ type = "text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+    }
+
+    .button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+   
+    .button :hover{
+        background-color: red;
+    }
+
+
+    .block{
+      
+        width: 33%;
+        border: 1px solid #ccc;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+
+    }
+
+    #main-block{
+        float: left;
+        width: 70%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #sidebar{
+        width: 30%;
+        float: right;
+        background-color: black;
+        color: whitesmoke;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .p-box{
+        border: 1px solid black;
+        width: 100%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-top: 30px;
+        position: relative;
+    }
+
+.p-box h1{
+    position: absolute;
+    top: 100px ;
+    left: 200px;
+}
+
+.p-box h2{
+   
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 300px;
+}
